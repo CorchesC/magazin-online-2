@@ -40,54 +40,50 @@ img {
 #sort {
     width: 100px;
 }
-
-.main-products {
-    margin: 10px 2px 0 2px;
-  
-    display: flex;
-    flex-direction: row;
-    flex-flow: row wrap;
+.shipping-info {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 700px;
+    min-width: 300px;
+    text-align: center;
+   
 }
-.product{
-    border: 1px solid gainsboro;
-    border-radius: 5%;
-    width: 80%;
+#name {
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    font-size: larger;
+}
+#last-name {
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    font-size: larger;
+}
+#location {
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    font-size: larger;
+}
+.back-continue {
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    font-size: small;
-    margin: 0 0 10px 10%;
+    grid-template-columns: 20fr 1fr;
+    margin: 0 10% 500px 10%;
 }
-.product-image {
-    border-radius: 6%;
-    width: 150px
-}
-.product-title {
-    letter-spacing: 2px;
-    font-weight: bold;
-    font-size: large;
-}
-.price {
-    border-top: 1px solid gainsboro;
-    margin-right: 30%;
-}
-.add-to-cart {
+.back-to-shopping {
     background-color: white;
     border: 1px solid black;
+    color: black;
     border-radius: 7%;
     margin-bottom: 2px;
 }
-
-@media (min-width: 1150px) {
-
-    .main-products{
-        margin: 10px auto;
-        width: 80%;
-    }
-    .product{
-        width: 400px;
-        margin: 0 0 10px 5%;
-    }
-  
+.checkmark {
+    margin: 0 10% 0 10%;
+}
+.continue {
+    background-color: rgba(0, 255, 153, 0.909);
+    color: black;
+    border: none;
+    border-radius: 7%;
+    margin-bottom: 2px;
 }
 .main-footer {
     background-color: rgb(21, 49, 41);
@@ -114,5 +110,3 @@ img {
     font-size: small;
     letter-spacing: 2px;
 }
-
-

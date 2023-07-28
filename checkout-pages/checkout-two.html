@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index-style.css">
+    <link rel="stylesheet" href="checkout-two-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -12,32 +12,23 @@
 <body>
     <header class = "header-container">
         <div class = "navigation-header">
-            <img src="images/menu3x.52cc17a3.svg" class = "menu-image">
+            <img src="/images/menu3x.52cc17a3.svg" class = "menu-image">
             <h2 class = "header-nav-tittle">Online Shop</h2>
             <form action="cart-page/cart.html">
-                    <button class = "cart-button"><img src="images/cart3x.3669d74a.svg"></button>
+                    <button class = "cart-button"><img src="/images/cart3x.3669d74a.svg"></button>
             </form>
      
-
+    
         </div>
         <div class = "product-header">
-            <div class = "products-text">Products</div>
-            <span class = "product-sort">
-                <img src="images/filter3x.2943df5b.svg">
-                <select name="sort" id="sort">
-                    <option value="az">(Name) A-Z</option>
-                    <option value="za">(Name) Z-A</option>
-                    <option value="lh">(Price) Low-High</option>
-                    <option value="hl">(Price) High-Low </option>
-                </select>
-            </span>
-           
+            <div class = "cart-text">Checkout: Your Overview</div>
         </div>
     </header>
     <main class = "main-products">
+        <div class = "qty-description">QTY Descrpition</div>
         <div class = "product product-one">
             <div class = "left">
-                <img src="images/backpack.webp" class = "product-image">
+                <input type="text" id="qty" placeholder="1">
             </div>
             <div class = "right">
                 <div class = "top">
@@ -46,13 +37,12 @@
                 </div>
                 <div class = "bottom">
                     <span class = "price">$29.99</span>
-                    <button class = "add-to-cart"> Add To Cart</button>
                 </div>
             </div>
         </div>
         <div class = "product product-two">
             <div class = "left">
-                <img src="images/light.webp" class = "product-image">
+                <input type="text" id="qty" placeholder="1">
             </div>
             <div class = "right">
                 <div class = "top">
@@ -61,13 +51,12 @@
                 </div>
                 <div class = "bottom">
                     <span class = "price">$9.99</span>
-                    <button class = "add-to-cart"> Add To Cart</button>
                 </div>
             </div>
         </div>
         <div class = "product product-three">
             <div class = "left">
-                <img src="images/shirt.webp" class = "product-image">
+                <input type="text" id="qty" placeholder="1">
             </div>
             <div class = "right">
                 <div class = "top">
@@ -76,13 +65,12 @@
                 </div>
                 <div class = "bottom">
                     <span class = "price">$15.99</span>
-                    <button class = "add-to-cart"> Add To Cart</button>
                 </div>
             </div>
         </div>
         <div class = "product product-four">
             <div class = "left">
-                <img src="images/parka.webp" class = "product-image">
+                <input type="text" id="qty" placeholder="1">
             </div>
             <div class = "right">
                 <div class = "top">
@@ -91,13 +79,12 @@
                 </div>
                 <div class = "bottom">
                     <span class = "price">$49.99</span>
-                    <button class = "add-to-cart"> Add To Cart</button>
                 </div>
             </div>
         </div>
         <div class = "product product-five">
             <div class = "left">
-                <img src="images/mug.webp" class = "product-image">
+                <input type="text" id="qty" placeholder="1">
             </div>
             <div class = "right">
                 <div class = "top">
@@ -106,13 +93,12 @@
                 </div>
                 <div class = "bottom">
                     <span class = "price">$7.99</span>
-                    <button class = "add-to-cart"> Add To Cart</button>
                 </div>
             </div>
         </div>
         <div class = "product product-six">
             <div class = "left">
-                <img src="images/sweater.webp" class = "product-image">
+                <input type="text" id="qty" placeholder="1">
             </div>
             <div class = "right">
                 <div class = "top">
@@ -121,12 +107,31 @@
                 </div>
                 <div class = "bottom">
                     <span class = "price">$99.99</span>
-                    <button class = "add-to-cart"> Add To Cart</button>
                 </div>
             </div>
         </div>
         
     </main>
+    <aside class = "final-data">
+        <div class = "payment-info">
+            <h4>Payment Information</h4>
+            <p>Card #1234</p>
+        </div>
+        <div class = "shipping-info">
+            <h4>Shipping Information</h4>
+            <p>Gratis! UPS</p>
+        </div>
+        <h3 class = "total">TOTAL: $00.00</h3>
+    </aside>
+    <aside class = "cancel-finish">
+            <form action="/index.html">
+                <button class = "cancel">← Cancel</button>
+            </form>
+            <form action="/checkout-pages/checkout-last.html">
+                <button class = "finish">Finish</button>
+            </form>
+    </aside>
+    
     <footer class = "main-footer">
         <div class = "socials">
             <a href="https://twitter.com/" class = "social-links">Twitter</a>
@@ -136,3 +141,4 @@
         <p class = "copyright">© 2023 Corches Ciprian Mihai</p>
     </footer>
 </body>
+</html>
