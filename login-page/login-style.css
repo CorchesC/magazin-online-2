@@ -1,0 +1,47 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background-color: rgb(174, 196, 181);
+}
+img {
+    display: block;
+}
+.main-login {
+    margin: auto;
+    width: 70%;
+    max-width: 700px;
+    min-width: 300px;
+}
+.login-logo {
+    text-align: center;
+    letter-spacing: 3px;
+}
+.login {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    padding: 10% 40% 40% 40%;
+    border-radius: 4%;
+    border: 1px solid gainsboro;
+}
+
+#name {
+    border: none;
+    border-bottom: 2px solid gainsboro;
+}
+#password {
+    border: none;
+    border-bottom: 2px solid gainsboro;
+}
+
+.login-button {
+    background-color: rgb(142, 233, 195);
+    margin-top: 4%;
+    width: 200px;
+    padding: 10px 0 10px 0;
+    border: none;
+    border-radius: 10%;
+}
